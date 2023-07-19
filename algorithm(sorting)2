@@ -1,0 +1,14 @@
+Second Task - Algorithm for Insertion Sort:
+
+Algorithm: insertion_sort(arr)
+Input: arr (array of elements to be sorted)
+
+For i = 1 to length of arr - 1:
+current_element = arr[i]
+j = i - 1
+While j >= 0 and arr[j] > current_element:
+arr[j + 1] = arr[j]
+j = j - 1
+arr[j + 1] = current_element
+
+The insertion_sort algorithm sorts the elements in the array "arr" in ascending order using the insertion sort technique.

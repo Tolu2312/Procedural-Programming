@@ -1,0 +1,22 @@
+First Task - Algorithm for Dot Product and Orthogonality Check:
+
+Algorithm: dot_product(v1, v2)
+Input: v1 and v2 (vectors of IR, having the same length)
+
+Variables:
+ps = 0
+
+For i = 0 to length of v1 - 1:
+ps = ps + v1[i] * v2[i]
+
+Output: ps
+
+Algorithm: check_orthogonality(n, v1_list, v2_list)
+Input: n (number of vector pairs), v1_list, and v2_list (arrays containing n pairs of vectors)
+
+For i = 0 to n - 1:
+dot_prod = dot_product(v1_list[i], v2_list[i])
+If dot_prod = 0:
+Print "Vectors v1 and v2 are orthogonal."
+Else:
+Print "Vectors v1 and v2 are not orthogonal."
